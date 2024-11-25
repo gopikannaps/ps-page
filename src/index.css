@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .navbar-bg{
+      background-color: #102953;
+    }
+    .search-btn{
+        height: 40px;
+        border-radius: 100px;
+        background: #FFFFFF2E;
+        color: white;
+        padding: 0 20px;
+        font-size: 16px;
+        cursor: pointer;
+        display: flex;
+        font-weight: 600;
+        justify-content: flex-start;
+        align-items: center;
+        border: none;
+        outline: none;
+    }
+    .search-icon{
+        margin-right: 10px !important;
+        font-size: 18px;
+    }
+    .mr-3rem {
+        margin-right: 3rem !important;
+      }
+
+
+      .post-property-btn-header{
+        background: #F2A75C;
+        font-size: 18px;
+        color: #FFFFFF;
+        margin-right: 10px !important;
+        padding: 13px;
+        border-radius: 100px;
+        gap: 10px;
+        cursor: pointer;
+        border: none;
+      }
+
+      .sub-header{
+        min-height: 80px;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: #102953 !important;
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+        gap: 40px
+      }
+
+      .sub-nav-warper{
+        display: flex;
+        gap: 40px;
+        margin-bottom: 0px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        width: 100%;
+      }
+
+      .footer-heading{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 22px;
+        color: #FFFFFF;
+      }
+
+      .footer-link{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-family: 'poppins';
+      }
+
+      .footer-link-section{
+        margin-top: 10px;
+      }
+
+      
+      .footer-input-email {
+      background: #e8f0fe;
+      }
+
+      .footer-input-button{
+      background-color: #F2A75C;
+    color: #FFFFFF !important;
+    border-radius: 100px;
+    height: 40px;
+    width: 166px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Poppins';
+        }
+}
