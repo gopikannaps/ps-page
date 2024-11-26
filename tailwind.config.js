@@ -18,6 +18,7 @@ export default {
       spacing: {
         'custom-left': '0.125rem', // 2px
       },
+ 
     },
   },
   plugins: [],

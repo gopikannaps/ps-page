@@ -103,4 +103,38 @@
     font-size: 16px;
     font-family: 'Poppins';
         }
+
+        /* Custom scrollbar */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.banner_img_res {
+  /* width: 100%; */
+  min-height: 330px;
+  border: 1px solid #10295380;
+  border-radius: 6px;
+  box-shadow: 0px 8px 16px 0px #0000000A;
+}
+.project-name{
+  font-size: 35px;
+  line-height: 44px;
+  color: #000000;
+  font-family: 'Lora' !important;
+}
+.menu-text{
+  font-size: 16px;
+  color: #102953;
+  line-height: 22px;
+  font-weight: 300;
+  font-family: 'poppins' !important;
+}
+.menu-value{
+  font-size: 16px;
+    color: #102953;
+    line-height: 22px;
+    font-weight: 500;
+    font-family: 'poppins' !important;
+}
+
 }
