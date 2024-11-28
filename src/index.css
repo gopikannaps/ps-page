@@ -137,4 +137,34 @@
     font-family: 'poppins' !important;
 }
 
+.des-overheading{
+  color: #000000;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.border-b{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+  background-color: #F2A75C;
+}
+.des-heading{
+  color: #102953;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'poppins' !important;
+}
+
+.des-text{
+  font-size: 16px;
+  color: #102953;
+  line-height: 22px;
+  font-weight: 400;
+  font-family: 'poppins' !important;
+}
+
+
 }
