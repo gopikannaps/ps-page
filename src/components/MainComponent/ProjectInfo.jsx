@@ -1,8 +1,9 @@
+
 import React from 'react'
 
 function ProjectInfo() {
   return (
-    <div className="bg-white rounded-lg shadow-md p-6 menu-value">
+    <div className="bg-white rounded-lg  p-6 menu-value">
       <h1 className="text-2xl mb-4 project-name ">Pace Anusa</h1>
       <hr className="border-t-2 border-orange-300 mb-4" />
 

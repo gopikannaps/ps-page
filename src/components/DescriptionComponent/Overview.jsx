@@ -4,6 +4,8 @@ import NearbyCategories from './NearbyCategories'
 import PricingDetails from './PricingDetails'
 import LiveInventory from './LiveInventory'
 import AboutBrand from './AboutBrand'
+import Amenities from './Amenities'
+import Review from './Review'
 
 function Overview() {
   return (
@@ -67,6 +69,8 @@ function Overview() {
  <PricingDetails></PricingDetails>
  <LiveInventory></LiveInventory>
  <AboutBrand></AboutBrand>
+ <Amenities></Amenities>
+ <Review></Review>
     </>
   )
 }
