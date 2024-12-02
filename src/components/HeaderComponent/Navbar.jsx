@@ -1,10 +1,8 @@
 import React from 'react'
 import logo from '../../assets/img/logo1.png'
-import Menubar from './Menubar'
-
-function Newbar() {
+function NavBar() {
   return (
-  <div>
+    <div>
     <nav className="navbar-bg text-white flex justify-between items-center px-6 py-3 font-display">
     {/* Left Section - Logo*/}
     <a href="/" className="flex items-center">
@@ -14,8 +12,6 @@ function Newbar() {
         className="w-custom-logo h-custom-logo"
       />
     </a>
-
-   {/* Right Section - Options */}
    <div className="flex items-center space-x-4 ml-auto">
         {/* Search Button */}
         <button className="search-btn mr-3rem">
@@ -52,11 +48,9 @@ function Newbar() {
       </div>
     </nav>
     
-    <Menubar></Menubar>
-
     </div>
   )
 }
 
-export default Newbar
+export default NavBar
 

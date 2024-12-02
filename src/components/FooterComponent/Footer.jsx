@@ -1,6 +1,6 @@
 import React from 'react'
 import Widget from './Widget'
-import Newsletter from './Newsletter'
+import NewsLetter from './NewsLetter'
 import Copyright from './Copyright'
 
 
@@ -39,7 +39,7 @@ function Footer() {
             'Terms & Condition',
           ]}
         />
-        <Newsletter />
+        <NewsLetter />
       </div>
       <Copyright />
     </footer>

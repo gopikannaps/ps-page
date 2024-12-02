@@ -1,25 +1,33 @@
-import React from 'react'
+import React from 'react';
 
-function Menubar() {
+const menuItems = [
+  { id: 1, name: 'Home', link: '/' },
+  { id: 2, name: 'Project', link: '/' },
+  { id: 3, name: 'Q & A', link: '/' },
+  { id: 4, name: 'Documents', link: '/' },
+  { id: 5, name: 'Partner Network', link: '/' },
+  { id: 6, name: 'Compare Project', link: '/' },
+  { id: 7, name: 'Chat Room', link: '/' },
+  { id: 8, name: 'Inventory', link: '/' },
+];
+
+const MenuBar = () => {
   return (
-    <div>
-       <div className="bg-white text-blue-900 sub-header font-display ">
-      <nav className="flex justify-center space-x-6 py-3  ">
-        {/* Menu Items */}
-        <ul className='sub-nav-warper'>
-            <li><a href="#"  className=" transition duration-200">Home</a></li>
-            <li><a href="#"  className=" transition duration-200">Project</a></li>
-            <li><a href="#"  className=" transition duration-200">Q & A</a></li>
-            <li><a href="#"  className=" transition duration-200">Documents</a></li>
-            <li><a href="#"  className=" transition duration-200">Partner Network</a></li>
-            <li><a href="#"  className=" transition duration-200">Compare Project</a></li>
-            <li><a href="#"  className=" transition duration-200">Chat Room</a></li>
-            <li><a href="#"  className=" transition duration-200">Inventory</a></li>
-        </ul>
-      </nav>
+    <div className="bg-white text-blue-900 sub-header font-display ">
+    <nav className="flex justify-center space-x-6 py-3  " >
+      <ul className='sub-nav-warper'>
+        {menuItems.map((item) => (
+          <li key={item.id} >
+            <a href={item.link} className='className=" transition duration-200"'>
+              {item.name}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Menubar
+export default MenuBar;
+
