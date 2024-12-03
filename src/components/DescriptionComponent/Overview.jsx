@@ -6,6 +6,8 @@ import LiveInventory from './LiveInventory'
 import AboutBrand from './AboutBrand'
 import Amenities from './Amenities'
 import Review from './Review'
+import SimilarProjects from './SimilarProjectsCarousel'
+import ReviewSection from './ReviewSection'
 
 function Overview() {
   return (
@@ -71,6 +73,8 @@ function Overview() {
  <AboutBrand></AboutBrand>
  <Amenities></Amenities>
  <Review></Review>
+ <ReviewSection></ReviewSection>
+ <SimilarProjects></SimilarProjects>
     </>
   )
 }
