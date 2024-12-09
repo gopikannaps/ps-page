@@ -81,10 +81,13 @@ const SimilarProjectsCarousel = () => {
 
   return (
     <div className="container mx-auto px-8 pt-10 pb-10">
-      <h2 className="des-overheading mb-2">Similar Projects</h2>
-      <p className="des-text mb-6">
-        Suscipit Cupidtate Dolorem Est Distinctio Voluptatem A Dolor. Facilis Sunt A Soluta Incidunt Et Mollitia Vel Eius Ipsum.
-      </p>
+      <h2 className="des-overheading mb-6 inline-block">
+  Similar Projects
+</h2>
+<p className="des-text inline-block ml-4">
+  Suscipit Cupidtate Dolorem Est Distinctio Voluptatem A Dolor. Facilis Sunt A Soluta Incidunt Et Mollitia Vel Eius Ipsum.
+</p>
+
       <div className="grid grid-cols-12 gap-4">
         {visibleProjects.map((project, index) => (
           <div
@@ -119,7 +122,6 @@ const SimilarProjectsCarousel = () => {
         ))}
       </div>
 
-            {/* Dot navigation */}
       <div className="flex justify-center mt-6 space-x-2">
         {projects.map((_, index) => (
           <button

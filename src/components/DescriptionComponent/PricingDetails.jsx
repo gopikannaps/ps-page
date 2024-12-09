@@ -5,34 +5,32 @@ function PricingDetails() {
     <div className="container mx-auto p-6">      
       
       <div className="rounded-lg p-6">
-        <h2 className="text-xl pb-2  des-overheading">
+              <div className="grid grid-cols-12">
+          <div className="col-span-12">
+          <h2 className="text-xl pb-2  des-overheading">
        <b>Price :</b>  As on 2024-07-17
         </h2>
-        {/* Grid with hr spanning col-span-8 only */}
-        <div className="grid grid-cols-12">
-          <div className="col-span-8">
             <hr className="border-b mb-4" />
           </div>
-          <div className="col-span-4"></div>
         </div>
         <div className="grid grid-cols-12 gap-4">
           {/* Price per square feet */}
-          <div className="col-span-3 des-heading pl-2">Price per square feet</div>
+          <div className="col-span-4 des-heading pl-2">Price per square feet</div>
           <div className="col-span-8 des-text flex items-start">
             <span className="mr-2">:</span>
             <span>₹ 4995</span>
           </div>
 
           {/* Booking amount */}
-          <div className="col-span-3 des-heading pl-2">Booking amount</div>
+          <div className="col-span-4 des-heading pl-2">Booking amount</div>
           <div className="col-span-8 des-text flex items-start">
             <span className="mr-2">:</span>
             <span>10%</span>
           </div>
 
           {/* Description */}
-          <div className="col-span-3 des-heading pl-2">Description</div>
-          <div className="col-span-5 des-text flex items-start">
+          <div className="col-span-4 des-heading pl-2">Description</div>
+          <div className="col-span-8 des-text flex items-start">
             <span className="mr-2">:</span>
             <span>
               EB Charges - Rs 1.25 Lakhs Assessment Charges - Rs 75,000 Impact
@@ -42,9 +40,9 @@ function PricingDetails() {
         </div>
       </div>
          <div className="pl-6">
-        <h2 className="text-xl font-semibold mb-4">Project Details :</h2>
         <div className="grid grid-cols-12">
-          <div className="col-span-8">
+          <div className="col-span-12">
+          <h2 className="text-xl font-semibold mb-4">Project Details :</h2>
             <table className="table-auto w-full border-collapse border border-gray-300 des-heading">
               <thead>
                 <tr className="bg-gray-100">
@@ -74,7 +72,6 @@ function PricingDetails() {
               </tbody>
             </table>
           </div>
-          <div className="col-span-4"></div>
         </div>
       </div>
     </div>
@@ -82,4 +79,3 @@ function PricingDetails() {
 }
 
 export default PricingDetails
-

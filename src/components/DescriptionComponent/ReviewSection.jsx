@@ -40,7 +40,7 @@ const ReviewSection = () => {
     <div className="container mx-auto py-10 pl-5">
       <div className="grid grid-cols-12 gap-6">
         {/* Reviews Section */}
-        <div className="col-span-8">
+        <div className="col-span-10">
           {reviews.map((review) => (
             <div key={review.id} className="mb-6">
               <div className="flex items-start">
