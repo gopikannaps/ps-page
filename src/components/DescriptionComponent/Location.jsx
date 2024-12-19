@@ -3,7 +3,7 @@ import React from 'react';
 const Location = () => {
   return (
 <div className="container mx-auto p-6">
-  <div className="rounded-lg p-6">
+  <div className="rounded-lg ">
     <div className="grid grid-cols-12">
       <div className="col-span-12">
         <h2 className="text-xl font-semibold pb-2 mb-2 des-overheading">Location</h2>
@@ -12,7 +12,7 @@ const Location = () => {
     </div>
 
     {/* Content Section */}
-    <div className="grid grid-cols-12 gap-4 p-6">
+    <div className="grid grid-cols-12 gap-4">
         {/* Map Embed */}
         <div className="col-span-6">
           <iframe

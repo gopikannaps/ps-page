@@ -3,7 +3,7 @@ import near from "../../assets/img/nearMeV2.png";
 
 function NearbyCategories() {
   return (
-    <div className="container mx-auto px-12 py-6">
+    <div className="container mx-auto pl-6">
       {/* Flexbox Layout */}
       <div className="flex flex-wrap gap-6">
         {/* Schools Section */}

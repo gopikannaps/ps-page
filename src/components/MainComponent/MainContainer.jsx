@@ -4,6 +4,7 @@ import ImageCarousel from "./ImageCarousel";
 import Card from "./Card";
 import ProjectInfo from "./ProjectInfo";
 
+
 function MainContainer() {
   return (
     <>
@@ -19,7 +20,6 @@ function MainContainer() {
                 <ProjectInfo />
               </div>
             </div>
-
             <ImageCarousel />
           </div>
         </div>

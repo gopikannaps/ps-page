@@ -5,6 +5,7 @@ import HeaderComponent from './components/HeaderComponent'
 import OfferComponent from './components/MainComponent/OfferComponent'
 import SimilarProjectsCarousel from './components/DescriptionComponent/SimilarProjectsCarousel'
 import OverallDescription from './components/DescriptionComponent/OverallDescription'
+import NavigationMenu from './components/MainComponent/NavigationMenu'
 
 function App() {
   return (
@@ -19,8 +20,14 @@ function App() {
         
         {/* Left Section - Main Content */}
         <div className="col-span-8 space-y-6">
+          
           <MainContainer />
           {/* <Overview /> */}
+          {/* <div className="sticky top-0 z-50 col-span-12 bg-white shadow-md"> */}
+          <div className="sticky top-0 z-50 col-span-12 ">
+
+            <NavigationMenu></NavigationMenu>
+          </div>
           <OverallDescription />
         </div>
 

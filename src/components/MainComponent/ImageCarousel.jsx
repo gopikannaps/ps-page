@@ -14,6 +14,7 @@ function ImageCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const itemsPerPage = 4;
 
+  // Calculate visible images
   const visibleImages = images.slice(
     currentIndex,
     currentIndex + itemsPerPage

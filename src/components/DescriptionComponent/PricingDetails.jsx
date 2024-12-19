@@ -2,9 +2,9 @@ import React from 'react'
 
 function PricingDetails() {
   return (
-    <div className="container mx-auto p-6">      
+    <div className="container mx-auto">      
       
-      <div className="rounded-lg p-6">
+      <div className="rounded-lg pl-6">
               <div className="grid grid-cols-12">
           <div className="col-span-12">
           <h2 className="text-xl pb-2  des-overheading">
@@ -17,28 +17,30 @@ function PricingDetails() {
           {/* Price per square feet */}
           <div className="col-span-4 des-heading pl-2">Price per square feet</div>
           <div className="col-span-8 des-text flex items-start">
-            <span className="mr-2">:</span>
+            <span className="mr-4">:</span>
             <span>₹ 4995</span>
           </div>
 
           {/* Booking amount */}
           <div className="col-span-4 des-heading pl-2">Booking amount</div>
           <div className="col-span-8 des-text flex items-start">
-            <span className="mr-2">:</span>
+            <span className="mr-4">:</span>
             <span>10%</span>
           </div>
 
           {/* Description */}
           <div className="col-span-4 des-heading pl-2">Description</div>
           <div className="col-span-8 des-text flex items-start">
-            <span className="mr-2">:</span>
+            <span className="mr-4">:</span>
             <span>
               EB Charges - Rs 1.25 Lakhs Assessment Charges - Rs 75,000 Impact
               Charges - Rs 60,000 Registration additional
             </span>
           </div>
         </div>
+        
       </div>
+
          <div className="pl-6">
         <div className="grid grid-cols-12">
           <div className="col-span-12">

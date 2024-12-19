@@ -2,7 +2,7 @@ import React from 'react';
 
 function LiveInventory() {
   return (
-    <div className="container mx-auto p-6 pl-12">
+    <div className="container mx-auto p-6">
       {/* Heading Section */}
       <div className="mb-6">
         <h2 className="text-xl font-semibold pb-2 des-overheading">Brochure & Floor Plan</h2>
@@ -34,4 +34,3 @@ function LiveInventory() {
 }
 
 export default LiveInventory;
-

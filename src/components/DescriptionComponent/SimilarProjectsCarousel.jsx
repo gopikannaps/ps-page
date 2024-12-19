@@ -11,63 +11,63 @@ const SimilarProjectsCarousel = () => {
   const projects = [
     {
       id: 1,
-      image: carousel1, 
+      image: carousel1, // Replace with your image URL
       name: "Urbanrise - The World Of Joy",
       location: "Siruseri",
       brand: "Urban Rise",
       possession: "Under Construction",
       price: "21L - 64L",
-      link: "#", 
+      link: "#", // Replace with the hyperlink URL
     },
     {
       id: 2,
-      image: carousel7, 
+      image: carousel7, // Replace with your image URL
       name: "Viva - Velvet",
       location: "Zamin Pallavaram",
       brand: "Viva Housing",
       possession: "RTMI",
       price: "72L - 1.19C",
-      link: "#", 
+      link: "#", // Replace with the hyperlink URL
     },
     {
       id: 3,
-      image: carousel3, 
+      image: carousel3, // Replace with your image URL
       name: "Sai Hazel",
       location: "Anakaputhur",
       brand: "Bharathi Construction",
       possession: "RTMI",
       price: "42L - 64L",
-      link: "#", 
+      link: "#", // Replace with the hyperlink URL
     },
     {
       id: 4,
-      image: carousel5, 
+      image: carousel5, // Replace with your image URL
       name: "BC ORCHID",
       location: "Pammal",
       brand: "Bharathi Construction",
       possession: "Under Construction",
       price: "59.58L - 81.24L",
-      link: "#", 
+      link: "#", // Replace with the hyperlink URL
     },
     {
       id: 5,
-      image: carousel6, 
+      image: carousel6, // Replace with your image URL
       name: "Viva - Vikas & Vilas",
       location: "Madipakkam",
       brand: "Viva Housing",
       possession: "Nearing Possession",
       price: "79L - 89L",
-      link: "#", 
+      link: "#", // Replace with the hyperlink URL
     },
     {
         id: 6,
-        image: carousel2, 
+        image: carousel2, // Replace with your image URL
         name: "Sai Whiteberry",
         location: "Pallavaram",
         brand: "Bharathi Construction",
         possession: "Under Construction",
         price: "33L - 77.78L",
-        link: "#", 
+        link: "#", // Replace with the hyperlink URL
       },
   ];
 
@@ -122,6 +122,7 @@ const SimilarProjectsCarousel = () => {
         ))}
       </div>
 
+            {/* Dot navigation */}
       <div className="flex justify-center mt-6 space-x-2">
         {projects.map((_, index) => (
           <button

@@ -23,7 +23,7 @@ function Amenities() {
       {/* Heading Section */}
       <div className="mb-6">
         <h2 className="des-overheading mb-4">Amenities</h2>
-        <hr className="border-b mb-4" />
+        <hr className="border-t-2 border-b border-gray-300 mb-6" />
       </div>
 
       {/* Amenities List */}
